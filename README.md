@@ -11,7 +11,7 @@ What I Learned:
 - Modul introduction
 - URL (Routes) & views
 
-link:
+Useful links:
 
 - https://academind.com/tutorials/git-the-basics/
 
@@ -26,6 +26,6 @@ What I Learned:
 - Adding more Dynamic view logic
 - Redirects
 
-link:
+Useful links::
 
 - https://docs.djangoproject.com/en/3.1/topics/http/urls/#path-converters
