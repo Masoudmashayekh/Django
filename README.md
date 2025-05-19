@@ -25,6 +25,9 @@ What I Learned:
 - Path Converters
 - Adding more Dynamic view logic
 - Redirects
+- The Reverse Function & Named URLs
+- Returning HTML
+- Practicing URLs, Views & Dynamic view logic
 
 Useful links:
 

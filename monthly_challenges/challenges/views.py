@@ -18,6 +18,17 @@ monthly_challenges_dic = {
 }
 
 # Create your views here.
+def index(requerst):
+    list_items = ""
+    months = list(monthly_challenges_dic.keys())
+    for month in months:
+        capitalized_month = month.capitalize()
+        month_path = reverse("monthly_challenges_by_me",args=[month])
+        list_items += f"<li><a href=\"{month_path}\">{capitalized_month}</a></li>"
+    response_data = f"<ul>{list_items}</ul>"
+    return HttpResponse(response_data)
+
+
 
 def monthly_challenges_by_number(request,month):
     months = list(monthly_challenges_dic.keys())
@@ -34,10 +45,10 @@ def monthly_challenges_by_number(request,month):
 def monthly_challenges_by_text(request,month):
     try:
         challenge_text = monthly_challenges_dic[month]
-        return HttpResponse(challenge_text)
+        response_data =  f"<h1>{challenge_text}</h1>"
+        return HttpResponse(response_data)
     except:
-            return HttpResponseNotFound("This month is not supported!")
+            return HttpResponseNotFound("<h1>This month is not supported!</h1>")
          
-    
 
 
