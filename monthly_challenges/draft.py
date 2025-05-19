@@ -1,7 +1,3 @@
-from django.shortcuts import render
-from django.http import HttpResponse, HttpResponseNotFound,HttpResponseRedirect
-
-
 monthly_challenges_dic = {
     "january": "Build a calculator that supports basic operations (+, -, *, /) and handles errors gracefully.",
     "february": "Create a to-do list CLI app that allows adding, editing, completing, and deleting tasks.",
@@ -17,26 +13,9 @@ monthly_challenges_dic = {
     "december": "Create a Python Advent calendar that reveals a daily coding puzzle until Christmas."
 }
 
-# Create your views here.
 
-def monthly_challenges_by_number(request,month):
-    months = list(monthly_challenges_dic.keys())
-    
-    if month > len(months):
-        return HttpResponseNotFound("Invalid month")
-    else:
-        redirect_month = months[month - 1]
-        return HttpResponseRedirect("/challenges/" +redirect_month) 
-    
+months = list(monthly_challenges_dic.keys())
+redirect_month = months[1]
 
-
-def monthly_challenges_by_text(request,month):
-    try:
-        challenge_text = monthly_challenges_dic[month]
-        return HttpResponse(challenge_text)
-    except:
-            return HttpResponseNotFound("This month is not supported!")
-         
-    
-
-
+print(months)
+print(redirect_month)
