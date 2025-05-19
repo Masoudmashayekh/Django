@@ -1,4 +1,6 @@
-# Django 18.may.2025
+# From Beginner to Backend: My Django Journey
+
+# 18.may.2025
 
 What I Learned:
 
