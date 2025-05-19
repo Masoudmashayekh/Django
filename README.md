@@ -2,12 +2,25 @@
 
 What I Learned:
 
-- Git Tutorial for Beginners, How to use github,
+- Git Tutorial for Beginners, How to use github
+- Django setup
+- Creating a Django project
+- Analyzing the created project
+- Starting a Development server
+- Create Django Apps
+- Modul introduction
+- URL (Routes) & views
 
-link: https://academind.com/tutorials/git-the-basics/
+link:
+
+- https://academind.com/tutorials/git-the-basics/
 
 # 19.May.2025
 
 What I Learned:
 
-link: https://docs.djangoproject.com/en/3.1/topics/http/urls/#path-converters
+- create first view & URL
+
+link:
+
+- https://docs.djangoproject.com/en/3.1/topics/http/urls/#path-converters
