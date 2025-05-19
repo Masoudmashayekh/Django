@@ -26,6 +26,6 @@ What I Learned:
 - Adding more Dynamic view logic
 - Redirects
 
-Useful links::
+Useful links:
 
 - https://docs.djangoproject.com/en/3.1/topics/http/urls/#path-converters
