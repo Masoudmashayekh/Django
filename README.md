@@ -3,10 +3,7 @@
 What I Learned:
 
 - Git Tutorial for Beginners, How to use github
-- Django setup:
-  python3 -m pip install Django
-  python3 -m pip install Django
-
+- Django setup
 - Creating a Django project
 - Analyzing the created project
 - Starting a Development server
