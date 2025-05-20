@@ -36,3 +36,5 @@ Useful links:
 - https://docs.djangoproject.com/en/3.1/topics/http/urls/#path-converters
 
 # 20.May.2025
+
+- Learn more about github
