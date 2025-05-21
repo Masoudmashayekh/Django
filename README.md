@@ -46,6 +46,8 @@ What I Learned:
 What I Learned:
 
 - First and Basic website with Python and Django.
+- Module Intriduction
+- 
 
 Useful links:
 
