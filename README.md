@@ -47,7 +47,7 @@ What I Learned:
 
 - First and Basic website with Python and Django.
 - Module Intriduction
-- 
+- Adding and Registering Templates
 
 Useful links:
 
