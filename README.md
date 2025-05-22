@@ -67,6 +67,7 @@ Useful links:
 What I Learned:
 
 - How to use INSTALLED_APP
--
+- Rendering Templates
+- Django Template language (DTL) & Variable Interpolation
 
 Useful links:
