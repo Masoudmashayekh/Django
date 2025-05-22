@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.http import HttpResponse, HttpResponseNotFound,HttpResponseRedirect
+from django.http import HttpResponse, HttpResponseNotFound, HttpResponseRedirect
 from django.urls import reverse
 from django.template.loader import render_to_string
 
@@ -19,37 +19,35 @@ monthly_challenges_dic = {
 }
 
 # Create your views here.
+
+
 def index(requerst):
     list_items = ""
     months = list(monthly_challenges_dic.keys())
     for month in months:
         capitalized_month = month.capitalize()
-        month_path = reverse("monthly_challenges_by_me",args=[month])
+        month_path = reverse("monthly_challenges_by_me", args=[month])
         list_items += f"<li><a href=\"{month_path}\">{capitalized_month}</a></li>"
     response_data = f"<ul>{list_items}</ul>"
     return HttpResponse(response_data)
 
 
-
-def monthly_challenges_by_number(request,month):
+def monthly_challenges_by_number(request, month):
     months = list(monthly_challenges_dic.keys())
-    
+
     if month > len(months):
         return HttpResponseNotFound("Invalid month")
     else:
         redirect_month = months[month - 1]
-        redirect_path = reverse("monthly_challenges_by_me",args=[redirect_month]) # challenges/january
-        return HttpResponseRedirect(redirect_path) 
-    
+        redirect_path = reverse("monthly_challenges_by_me", args=[
+                                redirect_month])  # challenges/january
+        return HttpResponseRedirect(redirect_path)
 
 
-def monthly_challenges_by_text(request,month):
-    # try:
-    challenge_text = monthly_challenges_dic[month]
-    response_data =  render_to_string("challenges/challenge.html")
-    return HttpResponse(response_data)
-    # except:
-            # return HttpResponseNotFound("<h1>This month is not supported!</h1>")
-         
-
-
+def monthly_challenges_by_text(request, month):
+    try:
+        challenge_text = monthly_challenges_dic[month]
+        response_data = render_to_string("challenges/challenge.html")
+        return HttpResponse(response_data)
+    except:
+        return HttpResponseNotFound("<h1>This month is not supported!</h1>")

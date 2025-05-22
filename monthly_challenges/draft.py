@@ -19,3 +19,5 @@ redirect_month = months[1]
 
 print(months)
 print(redirect_month)
+
+x = 1
