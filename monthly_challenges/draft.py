@@ -20,4 +20,5 @@ redirect_month = months[1]
 print(months)
 print(redirect_month)
 
-x = 1
+
+challenge_text = monthly_challenges_dic[month]
