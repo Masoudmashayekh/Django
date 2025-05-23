@@ -76,8 +76,12 @@ Useful links:
 
 What I Learned:
 
--
+- Filters
+- The Django Visual Studio code Extension
+- Tags & the 'for' tag
+- The URL tag for Dynamic URLs
 
 Useful links:
+
 - https://docs.djangoproject.com/en/5.2/ref/templates/builtins/
 - Filter: https://docs.djangoproject.com/en/5.2/ref/templates/builtins/#filters
