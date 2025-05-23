@@ -49,7 +49,7 @@ def monthly_challenges_by_text(request, month):
         challenge_text = monthly_challenges_dic[month]
         return render(request, "challenges/challenge.html",{
             "text": challenge_text,
-            "month_name": month.capitalize()
+            "month_name": month
             })
     
     except:

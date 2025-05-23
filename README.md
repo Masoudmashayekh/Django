@@ -79,3 +79,5 @@ What I Learned:
 -
 
 Useful links:
+- https://docs.djangoproject.com/en/5.2/ref/templates/builtins/
+- Filter: https://docs.djangoproject.com/en/5.2/ref/templates/builtins/#filters
