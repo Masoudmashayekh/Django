@@ -71,3 +71,11 @@ What I Learned:
 - Django Template language (DTL) & Variable Interpolation
 
 Useful links:
+
+# 23.May.2025
+
+What I Learned:
+
+-
+
+Useful links:
