@@ -1,7 +1,7 @@
 from django.shortcuts import render
-from django.http import HttpResponse, HttpResponseNotFound, HttpResponseRedirect
+from django.http import Http404, HttpResponseNotFound, HttpResponseRedirect
 from django.urls import reverse
-from django.template.loader import render_to_string
+# from django.template.loader import render_to_string
 
 monthly_challenges_dic = {
     "january": "1. Build a calculator that supports basic operations (+, -, *, /) and handles errors gracefully.",
@@ -55,6 +55,7 @@ def monthly_challenges_by_text(request, month):
             })
     
     except:
-        response_data = render_to_string("404.html")
-        return HttpResponseNotFound(response_data)
+        raise Http404()
+        # response_data = render_to_string("404.html")
+        # return HttpResponseNotFound(response_data)
  
