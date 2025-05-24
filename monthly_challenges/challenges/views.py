@@ -15,7 +15,7 @@ monthly_challenges_dic = {
     "september": "9. Build a unit converter (length, weight, temperature, etc.) with a GUI using Tkinter.",
     "october": "10. Implement a sorting algorithm visualizer using Matplotlib or Tkinter.",
     "november": "11. Build a file organizer script that sorts files into folders based on file extensions.",
-    "december": "12. Create a Python Advent calendar that reveals a daily coding puzzle until Christmas."
+    "december": None
 }
 
 # Create your views here.

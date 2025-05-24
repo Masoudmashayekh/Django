@@ -90,4 +90,8 @@ Useful links:
 
 What I Learned:
 
+- The "if" tag for conditional content
+
 Useful links:
+
+- https://www.w3schools.com/django/ref_tags_if.php
