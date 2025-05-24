@@ -95,7 +95,8 @@ What I Learned:
 - Including Partial Template snippets
 - 404 Template
 - Adding static Files
-
+- Adding Global static files
+- Adding CSS styling
 
 Useful links:
 
