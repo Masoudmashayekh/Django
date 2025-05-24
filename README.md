@@ -62,7 +62,7 @@ Useful links:
 - Module slides can be found in this branch:
   https://github.com/academind/django-practical-guide-course-code/tree/urls-views-zz-extra-files
 
-# 21.May.2025
+# 22.May.2025
 
 What I Learned:
 
