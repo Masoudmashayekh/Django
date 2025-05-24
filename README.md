@@ -100,3 +100,5 @@ What I Learned:
 Useful links:
 
 - https://www.w3schools.com/django/ref_tags_if.php
+- font for css: https://fonts.google.com/
+- Setting: https://docs.djangoproject.com/en/5.2/ref/settings/
