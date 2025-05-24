@@ -1,3 +1,5 @@
+{% extends "base.html "%}
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -14,3 +16,34 @@
     {% endif %}
   </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{% comment %} <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{month_name}} Challenge</title>
+  </head>
+  <body>
+    <h1>{{month_name | title }}'s Challenge</h1>
+    {% if text is not None %}
+      <h2>{{ text }}</h2>
+    {% else %}
+      <p>There is no challenge for this month yet!</p>
+    {% endif %}
+  </body>
+</html> {% endcomment %}
