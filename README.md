@@ -91,6 +91,11 @@ Useful links:
 What I Learned:
 
 - The "if" tag for conditional content
+- Template Inheritance
+- Including Partial Template snippets
+- 404 Template
+- Adding static Files
+
 
 Useful links:
 
