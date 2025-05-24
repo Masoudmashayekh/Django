@@ -1,5 +1,8 @@
 ul {
   list-style: none;
-  background-color: brown;
-  color: blue;
+  background-color: bisque;
+}
+a {
+  text-align: center;
+  text-shadow: 5cm;
 }
