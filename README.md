@@ -115,6 +115,9 @@
 - Module Intriduction
 - Setting up the starting project
 - Planning the project
+- Adding URLs & Views
+- Adding first Template
+- Template content & static Files
 
 ## Useful links:
 
