@@ -110,6 +110,12 @@ What I Learned:
 
 - Building static URL Dynamiclly
 
+### Section 5: course project - Building a Blog - The basics
+
+- Module Intriduction
+- Setting up the starting project
+- Planning the project
+
 Useful links:
 
 - Code snapshot repository: https://github.com/academind/django-practical-guide-course-code
