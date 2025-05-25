@@ -2,7 +2,7 @@
 
 # 18.may.2025
 
-What I Learned:
+## What I Learned:
 
 - Git Tutorial for Beginners, How to use github
 - Django setup
@@ -13,13 +13,13 @@ What I Learned:
 - Modul introduction
 - URL (Routes) & views
 
-Useful links:
+## Useful links:
 
 - https://academind.com/tutorials/git-the-basics/
 
 # 19.May.2025
 
-What I Learned:
+## What I Learned:
 
 - create first view & URL
 - Adding more view & URLs
@@ -31,25 +31,25 @@ What I Learned:
 - Returning HTML
 - Practicing URLs, Views & Dynamic view logic
 
-Useful links:
+## Useful links:
 
 - https://docs.djangoproject.com/en/3.1/topics/http/urls/#path-converters
 
 # 20.May.2025
 
-What I Learned:
+## What I Learned:
 
 - Learn more about github
 
 # 21.May.2025
 
-What I Learned:
+## What I Learned:
 
 - First and Basic website with Python and Django.
 - Module Intriduction
 - Adding and Registering Templates
 
-Useful links:
+## Useful links:
 
 - Code snapshot repository:
   https://github.com/academind/django-practical-guide-course-code
@@ -64,31 +64,31 @@ Useful links:
 
 # 22.May.2025
 
-What I Learned:
+## What I Learned:
 
 - How to use INSTALLED_APP
 - Rendering Templates
 - Django Template language (DTL) & Variable Interpolation
 
-Useful links:
+## Useful links:
 
 # 23.May.2025
 
-What I Learned:
+## What I Learned:
 
 - Filters
 - The Django Visual Studio code Extension
 - Tags & the 'for' tag
 - The URL tag for Dynamic URLs
 
-Useful links:
+## Useful links:
 
 - https://docs.djangoproject.com/en/5.2/ref/templates/builtins/
 - Filter: https://docs.djangoproject.com/en/5.2/ref/templates/builtins/#filters
 
 # 24.May.2025
 
-What I Learned:
+## What I Learned:
 
 - The "if" tag for conditional content
 - Template Inheritance
@@ -98,7 +98,7 @@ What I Learned:
 - Adding Global static files
 - Adding CSS styling
 
-Useful links:
+## Useful links:
 
 - https://www.w3schools.com/django/ref_tags_if.php
 - font for css: https://fonts.google.com/
@@ -106,7 +106,7 @@ Useful links:
 
 # 25.May.2025
 
-What I Learned:
+## What I Learned:
 
 - Building static URL Dynamiclly
 
@@ -116,7 +116,7 @@ What I Learned:
 - Setting up the starting project
 - Planning the project
 
-Useful links:
+## Useful links:
 
 - Code snapshot repository: https://github.com/academind/django-practical-guide-course-code
 
