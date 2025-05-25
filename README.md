@@ -103,3 +103,19 @@ Useful links:
 - https://www.w3schools.com/django/ref_tags_if.php
 - font for css: https://fonts.google.com/
 - Setting: https://docs.djangoproject.com/en/5.2/ref/settings/
+
+# 25.May.2025
+
+What I Learned:
+
+- Building static URL Dynamiclly
+
+Useful links:
+
+- Code snapshot repository: https://github.com/academind/django-practical-guide-course-code
+
+- For this section, the branches starting with "templates-..." hold the code snapshots for this course module.
+
+- For example: https://github.com/academind/django-practical-guide-course-code/tree/templates-01-adding-and-registering-templates/
+
+- Module slides can be found in this branch: https://github.com/academind/django-practical-guide-course-code/tree/templates-zz-extra-files/slides
