@@ -1,6 +1,6 @@
 from datetime import date
 from django.shortcuts import render
-from django.http import Http404
+
 
 all_posts = [
     {
@@ -65,8 +65,5 @@ def posts(request):
    
 
 def post_detail(request,slug):
-    try:
-        identified_post = next(post for post in all_posts if post['slug'] == slug)
-        return render(request,"blog/post-detail.html",{"post": identified_post} )
-    except:
-        raise Http404()
+    identified_post = next(post for post in all_posts if post['slug'] == slug)
+    return render(request,"blog/post-detail.html",{"post": identified_post} )
