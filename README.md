@@ -128,3 +128,11 @@
 - For example: https://github.com/academind/django-practical-guide-course-code/tree/templates-01-adding-and-registering-templates/
 
 - Module slides can be found in this branch: https://github.com/academind/django-practical-guide-course-code/tree/templates-zz-extra-files/slides
+
+# 26.May.2025
+
+## What I Learned:
+
+- Adding Images as static files
+
+## Useful links:
