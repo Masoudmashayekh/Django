@@ -143,3 +143,6 @@
 
 - Django Format Date: https://docs.djangoproject.com/en/5.2/ref/templates/builtins/#date
 - Linebreaks filter: https://docs.djangoproject.com/en/5.2/ref/templates/builtins/#date
+- Code snapshot repository: https://github.com/academind/django-practical-guide-course-code
+- For this section, the branches starting with "prj-urls-views-templates-..." hold the code snapshots for this course module.
+- For example: https://github.com/academind/django-practical-guide-course-code/tree/prj-urls-views-templates-01-adding-urls-and-views
