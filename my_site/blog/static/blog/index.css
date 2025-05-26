@@ -77,14 +77,3 @@
   font-size: 1.5rem;
   color: #353535;
 }
-
-#latest-posts ul :hover,
-#latest-posts ul:active {
-  background-color: #3d0254;
-  padding: 0;
-}
-
-#latest-posts ul a:hover,
-#latest-posts ul a:active {
-  color: white;
-}

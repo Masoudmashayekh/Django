@@ -4,22 +4,15 @@
 {% block title %} My blog {%endblock %} 
 
 {% block css_files %}
+ <link rel="stylesheet" href="{% static "blog/post.css" %}">
  <link rel="stylesheet" href="{% static "blog/index.css" %}"> 
 {% endblock %} 
  
 {% block content %}
-<header id="main-navigation">
-  <h1>
-    <a href="">Masoud' Blog</a>
-  </h1>
-  <nav>
-    <a href="">All Posts</a>
-  </nav>
-</header>
 
 <section id="welcome">
   <header>
-    <img src="{% static "blog/images/max.png" %}" alt="Masoud - The Author of this blog" />
+    <img src="{% static "blog/images/masoud.png" %}" alt="Masoud - The Author of this blog" />
     <h2>MASOUD'S BLOG</h2>
   </header>
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, qui.</p>
@@ -29,20 +22,7 @@
   <h2>My latest thoughts</h2>
 
   <ul>
-    <li>
-      <article class="post">
-        <a href="">
-          <img src="{% static "blog/images/mountains.jpg" %}" alt="Walking every day"/>
-          <div class="post__content">
-            <h3>Lorem ipsum</h3>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem
-              nemo illum, pariatur aperiam expedita quis!
-            </p>
-          </div>
-        </a>
-      </article>
-    </li>
+    {% include "blog/includes/post.html" %}
   </ul>
 </section>
 
