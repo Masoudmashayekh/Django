@@ -4,7 +4,7 @@
 
 
 {% block title %}
-This Post Title 
+    {{ post.title }}
  {%endblock %} 
 
 
@@ -15,19 +15,17 @@ This Post Title
  
 {% block content %}
 <section id="summary">
-    <h2>Post Title</h2>
+    <h2> {{ post.title }}</h2>
     <article>
-        <img src="{% static "blog/images/mountains.jpg" %}" alt="Post title">
-        <address>By Masoud</address>
+        <img src="{% static "blog/images/"|add:post.image %}" alt="Post title">
+        <address> {{ post.author | title }}</address>
         <div>
-            Last update on <time datetime="">July 10th</time>
+            Last update on <time> {{ post.date|date:"d M Y" }}</time>
         </div>
     </article>
 </section>
 <main>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus veniam repellat eum libero eius aspernatur at reprehenderit, illo itaque quaerat pariatur, aliquid ipsum labore eaque illum laborum, repellendus fugit similique voluptate nobis autem corporis harum. Laboriosam modi perspiciatis minima! Labore, assumenda laboriosam? Consequuntur possimus blanditiis vitae. Ut temporibus eos tempore.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus veniam repellat eum libero eius aspernatur at reprehenderit, illo itaque quaerat pariatur, aliquid ipsum labore eaque illum laborum, repellendus fugit similique voluptate nobis autem corporis harum. Laboriosam modi perspiciatis minima! Labore, assumenda laboriosam? Consequuntur possimus blanditiis vitae. Ut temporibus eos tempore.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus veniam repellat eum libero eius aspernatur at reprehenderit, illo itaque quaerat pariatur, aliquid ipsum labore eaque illum laborum, repellendus fugit similique voluptate nobis autem corporis harum. Laboriosam modi perspiciatis minima! Labore, assumenda laboriosam? Consequuntur possimus blanditiis vitae. Ut temporibus eos tempore.</p>
+    {{ post.content|linebreaks}}
 </main>
 
 {% endblock %}

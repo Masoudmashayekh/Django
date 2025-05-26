@@ -140,3 +140,6 @@
 - Adding Dummy Data to the "views" file
 
 ## Useful links:
+
+- Django Format Date: https://docs.djangoproject.com/en/5.2/ref/templates/builtins/#date
+- Linebreaks filter: https://docs.djangoproject.com/en/5.2/ref/templates/builtins/#date
