@@ -54,9 +54,6 @@
   display: flex;
   gap: 1rem;
 }
-#latest-posts ul a {
-  text-decoration: none;
-}
 
 #latest-posts li {
   flex: 1;

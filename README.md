@@ -134,5 +134,9 @@
 ## What I Learned:
 
 - Adding Images as static files
+- Addig the "All Posts" page & style
+- Linking the pages
+- Adding the "Single Post" page
+- Adding Dummy Data to the "views" file
 
 ## Useful links:
