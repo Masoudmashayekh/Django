@@ -153,7 +153,15 @@
 
 ### Section 6: course project - Building a Blog - The basics
 
--
+- Module Introduction
+- Different kinds of Data
+- Understanding Database options 
+- Understanding SQL
+- Django Models
+- Creating a Django Model with Fields
+- Migrations
+- Inserting Data
+- Getting all Entries
 
 ## Useful links:
 - django models: https://docs.djangoproject.com/en/5.2/ref/models/fields/
