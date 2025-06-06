@@ -146,3 +146,13 @@
 - Code snapshot repository: https://github.com/academind/django-practical-guide-course-code
 - For this section, the branches starting with "prj-urls-views-templates-..." hold the code snapshots for this course module.
 - For example: https://github.com/academind/django-practical-guide-course-code/tree/prj-urls-views-templates-01-adding-urls-and-views
+
+# 06.june.2025
+
+## What I Learned:
+
+### Section 6: course project - Building a Blog - The basics
+
+-
+
+## Useful links:
