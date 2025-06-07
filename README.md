@@ -175,4 +175,4 @@
 
 ## Useful links:
 
--
+- Django filter: https://django-filter.readthedocs.io/en/stable/
