@@ -171,7 +171,16 @@
 
 ## What I Learned:
 
-- Updating Models & Migrations
+- Updating Models & Migrations - Database
+- Blanks Vs. Null - Database
+- Updating Data - Database
+- Deleting Data - Database
+- Create Instead of Save - Database
+- Query & filtering Data - Database
+- "OR" conditions - Database
+- Query performance - Database
+- Bulk operations - Database
+- Preparing Templates - Database
 
 ## Useful links:
 
