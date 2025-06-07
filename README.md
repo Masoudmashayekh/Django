@@ -155,7 +155,7 @@
 
 - Module Introduction
 - Different kinds of Data
-- Understanding Database options 
+- Understanding Database options
 - Understanding SQL
 - Django Models
 - Creating a Django Model with Fields
@@ -164,4 +164,15 @@
 - Getting all Entries
 
 ## Useful links:
+
 - django models: https://docs.djangoproject.com/en/5.2/ref/models/fields/
+
+# 07.june.2025
+
+## What I Learned:
+
+- Updating Models & Migrations
+
+## Useful links:
+
+-
