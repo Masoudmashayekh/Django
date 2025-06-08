@@ -181,6 +181,9 @@
 - Query performance - Database
 - Bulk operations - Database
 - Preparing Templates - Database
+- Rendering Queried Data in the Template - Database
+- Rendering the Details page - Database
+- 
 
 ## Useful links:
 
