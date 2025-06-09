@@ -2,6 +2,7 @@ from django.db import models
 from django.core.validators import MinLengthValidator,MaxLengthValidator
 from django.utils.text import slugify
 
+
 # Create your models here.
 
 class Book(models.Model):
@@ -11,6 +12,9 @@ class Book(models.Model):
     is_bestselling = models.BooleanField(default=False)
     # Harry Potter 1 => harry-potter-1
     slug = models.SlugField(default="", null=False)
+    
+    
+    
     
     
     def save(self, *args, **kwargs):
