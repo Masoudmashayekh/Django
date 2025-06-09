@@ -178,12 +178,6 @@
 - Create Instead of Save - Database
 - Query & filtering Data - Database
 - "OR" conditions - Database
-- Query performance - Database
-- Bulk operations - Database
-- Preparing Templates - Database
-- Rendering Queried Data in the Template - Database
-- Rendering the Details page - Database
-- 
 
 ## Useful links:
 
@@ -193,3 +187,40 @@
 - You can update multiple model instances (i.e. database records) at once: https://docs.djangoproject.com/en/3.0/ref/models/querysets/#bulk-update
 
 - You can create multiple model instances (i.e. database records) at once: https://docs.djangoproject.com/en/3.0/ref/models/querysets/#bulk-create
+
+- Code snapshot repository: https://github.com/academind/django-practical-guide-course-code
+
+- For this section, the branches starting with "data-models-..." hold the code snapshots for this course module.
+
+- For example: https://github.com/academind/django-practical-guide-course-code/tree/data-models-01-first-model-and-migration
+
+- Module slides can be found in this branch: https://github.com/academind/django-practical-guide-course-code/tree/data-models-zz-extra-files/slides
+
+# 08.june.2025
+
+## What I Learned:
+
+- Query performance - Database
+- Bulk operations - Database
+- Preparing Templates - Database
+- Rendering Queried Data in the Template - Database
+- Rendering the Details page - Database
+- Model URLs - Database
+- Adding a Slug field & overwriting Save - Database
+
+## Useful links:
+
+# 09.june.2025
+
+## What I Learned:
+
+- Using the slug & Updating Field options - Database
+- Aggregation & ordering - Database
+
+## Useful links:
+
+- For this section, the branches starting with "data-models-..." hold the code snapshots for this course module.
+
+- For example: https://github.com/academind/django-practical-guide-course-code/tree/data-models-01-first-model-and-migration
+
+- Module slides can be found in this branch: https://github.com/academind/django-practical-guide-course-code/tree/data-models-zz-extra-files/slides
