@@ -224,3 +224,13 @@
 - For example: https://github.com/academind/django-practical-guide-course-code/tree/data-models-01-first-model-and-migration
 
 - Module slides can be found in this branch: https://github.com/academind/django-practical-guide-course-code/tree/data-models-zz-extra-files/slides
+
+# 10.june.2025
+
+## What I Learned:
+
+### Section 7: Admin
+
+- 
+
+## Useful links:
