@@ -231,6 +231,16 @@
 
 ### Section 7: Admin
 
-- 
+- Module Introduction
+- Logging Data into the Admin panel
+- Adding Models to the Admin Area
+- Configuring Model Fields
+- Configuring the Admin Setting
+- More config options
 
 ## Useful links:
+
+- django admin: https://docs.djangoproject.com/en/5.2/ref/contrib/admin/
+- Code snapshot repository: https://github.com/academind/django-practical-guide-course-code
+- For this section, the branches starting with "admin-..." hold the code snapshots for this course module.
+- For example: https://github.com/academind/django-practical-guide-course-code/tree/admin-01-configuring-model-fields/
