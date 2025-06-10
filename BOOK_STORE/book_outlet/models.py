@@ -11,7 +11,7 @@ class Book(models.Model):
     author = models.CharField(null=True ,max_length=100)
     is_bestselling = models.BooleanField(default=False)
     # Harry Potter 1 => harry-potter-1
-    slug = models.SlugField(default="", null=False)
+    slug = models.SlugField(default="",blank=True,editable=False, null=False)
     
     
     
