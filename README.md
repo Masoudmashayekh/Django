@@ -244,3 +244,27 @@
 - Code snapshot repository: https://github.com/academind/django-practical-guide-course-code
 - For this section, the branches starting with "admin-..." hold the code snapshots for this course module.
 - For example: https://github.com/academind/django-practical-guide-course-code/tree/admin-01-configuring-model-fields/
+
+# 11.june.2025
+
+## What I Learned:
+
+### Section 8: RelationShips
+
+- Module Intriduction
+- Understanding Relationsship Types
+- Adding a one-to-many Relation & Migrations
+- Working with Relations in python code
+- Cross model Queries
+- Managing Relations in Admin
+- Adding one-to-one Relation
+- one-to-one python code
+- One-to-one & Admin Config
+- Setting-up many-to-many
+- Using many-to-many in python 
+- Many-to-many in Admin
+- Circular Relations & Lazy Relations
+
+## Useful links:
+
+- ForeignKey: https://docs.djangoproject.com/en/3.2/ref/models/fields/#module-django.db.models.fields.related
