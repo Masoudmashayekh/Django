@@ -7,6 +7,15 @@ from django.urls import reverse
 class Country(models.Model):
     name = models.CharField(max_length=80)
     code = models.CharField(max_length=2)
+    
+    
+    def __str__(self):
+        return f"{self.name}"
+    
+    class Meta:
+        verbose_name_plural = "Countries"
+
+        
 
 
 
@@ -48,7 +57,7 @@ class Book(models.Model):
     is_bestselling = models.BooleanField(default=False)
     # Harry Potter 1 => harry-potter-1
     slug = models.SlugField(default="", null=False)
-    published_countries = models.ManyToManyField(Country, null=False)
+    published_countries = models.ManyToManyField(Country)
     
     
     def get_absolute_url(self):
