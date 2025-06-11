@@ -9,6 +9,12 @@ class Address(models.Model):
     street = models.CharField(max_length=80)
     postal_code = models.CharField(max_length=5)
     city = models.CharField(max_length=50)
+    
+    def full_address(self):
+        return f"{self.city}, {self.street}, {self.postal_code}"
+    
+    def __str__(self):
+        return self.full_address()
 
 
 
