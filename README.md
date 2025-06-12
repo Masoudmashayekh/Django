@@ -261,7 +261,7 @@
 - one-to-one python code
 - One-to-one & Admin Config
 - Setting-up many-to-many
-- Using many-to-many in python 
+- Using many-to-many in python
 - Many-to-many in Admin
 - Circular Relations & Lazy Relations
 
@@ -273,13 +273,19 @@
 - For example: https://github.com/academind/django-practical-guide-course-code/tree/relationships-01-adding-one-to-many
 - Module slides can be found in this branch: https://github.com/academind/django-practical-guide-course-code/tree/relationships-zz-extra-files/slides
 
-
 # 12.june.2025
 
 ## What I Learned:
 
 ### Section 9: Building a blog: Data & Models
 
-
+- Module Introduction
+- Planning the Data Models
+- Adding a Post Model 
+- Author Model & one-to-many
+- Tag Model many-to-many
+- Registering Models for Admin
+- Migrations & Admin Login
+- Adding Data via Admin
 
 ## Useful links:
