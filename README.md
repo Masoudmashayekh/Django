@@ -272,3 +272,14 @@
 - For this section, the branches starting with "relationships-..." hold the code snapshots for this course module.
 - For example: https://github.com/academind/django-practical-guide-course-code/tree/relationships-01-adding-one-to-many
 - Module slides can be found in this branch: https://github.com/academind/django-practical-guide-course-code/tree/relationships-zz-extra-files/slides
+
+
+# 12.june.2025
+
+## What I Learned:
+
+### Section 9: Building a blog: Data & Models
+
+
+
+## Useful links:
