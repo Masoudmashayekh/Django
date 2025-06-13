@@ -281,11 +281,19 @@
 
 - Module Introduction
 - Planning the Data Models
-- Adding a Post Model 
+- Adding a Post Model
 - Author Model & one-to-many
 - Tag Model many-to-many
 - Registering Models for Admin
 - Migrations & Admin Login
 - Adding Data via Admin
+
+## Useful links:
+
+# 13.june.2025
+
+## What I Learned:
+
+-
 
 ## Useful links:
