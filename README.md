@@ -294,6 +294,15 @@
 
 ## What I Learned:
 
--
+- Configuring the Admin Panel
+- Fetching Posts for starting page
+- connect all posts and single page posts to the Database
+- adding Author and tags data
+- add mailto for Author
 
 ## Useful links:
+
+- Code snapshot repository: https://github.com/academind/django-practical-guide-course-code
+- For this section, the branches starting with "prj-data-models-..." hold the code snapshots for this course module.
+- For example: https://github.com/academind/django-practical-guide-course-code/tree/prj-data-models-01-added-models-and-relations
+- Module slides can be found in this branch: https://github.com/academind/django-practical-guide-course-code/tree/prj-data-models-zz-extra-files/slides
