@@ -306,3 +306,13 @@
 - For this section, the branches starting with "prj-data-models-..." hold the code snapshots for this course module.
 - For example: https://github.com/academind/django-practical-guide-course-code/tree/prj-data-models-01-added-models-and-relations
 - Module slides can be found in this branch: https://github.com/academind/django-practical-guide-course-code/tree/prj-data-models-zz-extra-files/slides
+
+# 14.june.2025
+
+## What I Learned:
+
+### Section 10: Forms
+
+- Module Introduction
+
+## Useful links:
