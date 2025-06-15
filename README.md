@@ -323,5 +323,7 @@
 ## What I Learned:
 
 - Adding a Dummy Form
+- CSRF Protection 
+- Handling Form submission & Extractiong Data
 
 ## Useful links:
