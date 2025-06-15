@@ -6,7 +6,7 @@
     <title>Your Review</title>
 </head>
 <body>
-    <form method="post">
+    <form action="/" method="post">
         {% csrf_token %}
         <label for="username">Your name:</label>
         <input id="username" name="user_name" type="text">
