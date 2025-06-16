@@ -6,6 +6,8 @@ from django.shortcuts import render
 def review(request):
     if request.method == "POST":
         entered_username = request.POST["user_name"]
+        if entered_username == "" and len(entered_username) >= 100:
+            return render(request, "reviews/review.html",{"has_error": True})
         print(entered_username)
         return HttpResponseRedirect("/thank-you")
         
@@ -13,4 +15,4 @@ def review(request):
 
 
 def thank_you(request):
-    return render(request, "reviews/thank_you.html")
+    return render(request, "reviews/thank_you.html",{"has_error": False})
