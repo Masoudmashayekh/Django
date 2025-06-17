@@ -332,6 +332,13 @@
 
 ## What I Learned:
 
--
+- Manual Form validation & the Problems with that
+- Using the django Form class
+
+## Useful links:
+
+# 17.june.2025
+
+## What I Learned:
 
 ## Useful links:
