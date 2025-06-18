@@ -341,5 +341,15 @@
 
 ## What I Learned:
 
+- Validation with Django Forms
+- Customizing the form controls
+
 ## Useful links:
+
 - Form fields: https://docs.djangoproject.com/en/5.2/ref/forms/fields/
+
+# 18.june.2025
+
+## What I Learned:
+
+## Useful links:
