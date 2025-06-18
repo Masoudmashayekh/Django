@@ -352,4 +352,8 @@
 
 ## What I Learned:
 
+- Adding styling for form
+- Adding more Form controls
+- storing Form Data in a Database
+
 ## Useful links:
