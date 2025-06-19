@@ -370,3 +370,7 @@
 ## Useful links:
 
 - Class-based views:https://docs.djangoproject.com/en/5.2/topics/class-based-views/
+- Code snapshot repository: https://github.com/academind/django-practical-guide-course-code
+- For this section, the branches starting with "forms-..." hold the code snapshots for this course module.
+- For example: https://github.com/academind/django-practical-guide-course-code/tree/forms-00-starting-setup
+- Module slides can be found in this branch: https://github.com/academind/django-practical-guide-course-code/tree/forms-zz-extra-files/slides
