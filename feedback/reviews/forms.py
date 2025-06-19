@@ -13,3 +13,12 @@ class ReviewForm(forms.ModelForm):
     class Meta:
         model = Review
         fields = "__all__"
+        labels = {
+            "user_name": "Your Name",
+            "review_text": "Your Feedback",
+            "rating": "Your Rating"}
+        error_massages= {
+            "user_name":
+                {"requierd": "Your name must not be empty!",
+                 "max_length": "Please enter a shorter name!"}   
+        }
