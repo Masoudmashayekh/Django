@@ -363,3 +363,5 @@
 ## What I Learned:
 
 ## Useful links:
+
+- Class-based views:https://docs.djangoproject.com/en/5.2/topics/class-based-views/
