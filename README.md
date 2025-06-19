@@ -362,6 +362,11 @@
 
 ## What I Learned:
 
+- Introducing ModelForms
+- Configuring the ModelForms
+- Saving Data with the a ModelForms
+- Class Based views
+
 ## Useful links:
 
 - Class-based views:https://docs.djangoproject.com/en/5.2/topics/class-based-views/
