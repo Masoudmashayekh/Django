@@ -1,4 +1,5 @@
 {% extends "reviews/base.html" %}
+{% load static %}
 
 {% block title %}All Reviews{% endblock %}
 
@@ -7,7 +8,7 @@
 {% block content %}
     <ul>
         {% for review in reviews %}
-        <li>{{ review.user_name }} (Rating: {{ review.rating }}) </li>
+        <a href="{% static "reviews/single_review.html" %}"><li>{{ review.user_name }} (Rating: {{ review.rating }}) </li></a>
         {% endfor %}
     </ul>
 {% endblock %}
