@@ -3,6 +3,7 @@ from django.shortcuts import render
 from .forms import ReviewForm
 from django.views import View
 from django.views.generic.base import TemplateView
+from .models import Review
 # Create your views here.
 
 class ReviewView(View):
@@ -27,3 +28,15 @@ class ThankYouView(TemplateView):
              context= super().get_context_data(**kwargs)
              context["message"] = "This works!"
              return context # if we have message in thank_you html file we can add it here with get_context_data
+         
+         
+class ReviewsListView(TemplateView):
+    template_name = "reviews/review_list.html"
+    
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        reviews = Review.objects.all()
+        context["reviews"] = reviews
+        return context        
+    
+    
