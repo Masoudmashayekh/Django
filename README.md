@@ -391,5 +391,15 @@
 # 21.june.2025
 
 ## What I Learned:
+- Showing a Detail Template
+- The ListView
+- DetailView
+- When to use which View
+- FormView
+- CreateView
 
 ## Useful links:
+
+- Code snapshot repository: https://github.com/academind/django-practical-guide-course-code
+- For this section, the branches starting with "class-based-views-..." hold the code snapshots for this course module.
+- For example: https://github.com/academind/django-practical-guide-course-code/tree/class-based-views-01-adding-templates
