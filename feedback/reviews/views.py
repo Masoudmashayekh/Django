@@ -4,6 +4,7 @@ from .forms import ReviewForm
 from django.views import View
 from django.views.generic.base import TemplateView
 from .models import Review
+from django.views.generic import ListView, DetailView
 # Create your views here.
 
 class ReviewView(View):
@@ -30,22 +31,23 @@ class ThankYouView(TemplateView):
              return context # if we have message in thank_you html file we can add it here with get_context_data
          
          
-class ReviewsListView(TemplateView):
+class ReviewsListView(ListView):
     template_name = "reviews/review_list.html"
+    model = Review
+    context_object_name = "reviews"
     
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-        reviews = Review.objects.all()
-        context["reviews"] = reviews
-        return context        
+    # def get_queryset(self):
+    #      base_query = super().get_queryset()
+    #      data = base_query.filter(rating__gt= 3)
+    #      return data
     
-    
-class SingleReviewView(TemplateView):
+class SingleReviewView(DetailView):
     template_name = "reviews/single_review.html"
+    model = Review
     
-    def get_context_data(self, **kwargs):
-        context = super().get_context_data(**kwargs)
-        review_id = kwargs["id"]
-        selected_review = Review.objects.get(pk=review_id)
-        context["review"] = selected_review
-        return context     
+    # def get_context_data(self, **kwargs):
+    #     context = super().get_context_data(**kwargs)
+    #     review_id = kwargs["id"]
+    #     selected_review = Review.objects.get(pk=review_id)
+    #     context["review"] = selected_review
+    #     return context     
