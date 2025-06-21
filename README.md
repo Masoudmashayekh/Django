@@ -397,6 +397,7 @@
 - When to use which View
 - FormView
 - CreateView
+### Section 12: File Uploads
 
 ## Useful links:
 
