@@ -387,3 +387,9 @@
 - using the TemplateView
 
 ## Useful links:
+
+# 21.june.2025
+
+## What I Learned:
+
+## Useful links:
