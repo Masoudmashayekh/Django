@@ -391,13 +391,18 @@
 # 21.june.2025
 
 ## What I Learned:
+
 - Showing a Detail Template
 - The ListView
 - DetailView
 - When to use which View
 - FormView
 - CreateView
+
 ### Section 12: File Uploads
+
+- Module Introduction
+- Starting Setup for new App
 
 ## Useful links:
 
