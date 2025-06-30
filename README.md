@@ -426,5 +426,9 @@
 # 30.june.2025
 
 ## What I Learned:
+- Using an ImageField
+- Using a CreateView
+- Working with FileField
+- Serving uploaded files
 
 ## Useful links:
