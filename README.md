@@ -413,10 +413,18 @@
 # 22.june.2025
 
 ## What I Learned:
+
 - Making the File Upload work
 - Sroting Upload files naive approach
 - adding a form with a FileField
 - Using Models for File Storage
 
 ## Useful links:
- - https://docs.djangoproject.com/en/5.2/topics/http/file-uploads/
+
+- https://docs.djangoproject.com/en/5.2/topics/http/file-uploads/
+
+# 30.june.2025
+
+## What I Learned:
+
+## Useful links:
