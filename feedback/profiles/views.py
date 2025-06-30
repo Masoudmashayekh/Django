@@ -3,7 +3,7 @@ from django.views import View
 from django.http import HttpResponseRedirect
 from .forms import ProfileForm
 from .models import UserProfile
-from django.views.genetic.edit import CreateView
+from django.views.generic.edit import CreateView
 
 # Create your views here.
 # def store_file(file):
