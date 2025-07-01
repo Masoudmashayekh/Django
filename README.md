@@ -438,7 +438,15 @@
 # 1.july.2025
 
 ## What I Learned:
-
+### Section 13: Sessions
+- Module Intriduction
+- Problem Description
+- What are sessions
+- Enabling & configuring Sessions
+- Adding a New View
+- Storing Data in session 
+- Which kind of Data should be stored
+- Using Session Data
 
 ## Useful links:
 
