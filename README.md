@@ -432,4 +432,13 @@
 - Serving uploaded files
 
 ## Useful links:
-dl
+- Code snapshot repository: https://github.com/academind/django-practical-guide-course-code
+- For example: https://github.com/academind/django-practical-guide-course-code/tree/file-upload-00-starting-setup
+
+# 1.july.2025
+
+## What I Learned:
+
+
+## Useful links:
+
