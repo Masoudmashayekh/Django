@@ -459,6 +459,9 @@
 
 ## What I Learned:
 ### Section 14: Course Project: Building a Blog- Forms, Files & Sessions
-
+ - Module Introduction 
+ - Adding an ImageField to the post model
+ - Serving uploaded files
+ - Converting views to class based
 
 ## Useful links:
