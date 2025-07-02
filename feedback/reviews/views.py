@@ -69,7 +69,7 @@ class SingleReviewView(DetailView):
          loaded_review = self.object  
          request = self.request
          favorite_id = request.session["favorite_review"]
-         context["is_favorite"] = favorite_id == loaded_review.id
+         context["is_favorite"] = favorite_id == str(loaded_review.id)
          return context
         
             
