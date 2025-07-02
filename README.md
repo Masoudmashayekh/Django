@@ -449,4 +449,16 @@
 - Using Session Data
 
 ## Useful links:
+- Code snapshot repository: https://github.com/academind/django-practical-guide-course-code
+- For this section, the branches starting with "sessions-..." hold the code snapshots for this course module.
+- For example: https://github.com/academind/django-practical-guide-course-code/tree/sessions-00-starting-setup
+- Module slides can be found in this branch: https://github.com/academind/django-practical-guide-course-code/tree/sessions-zz-extra-files/slides
 
+
+# 2.july.2025
+
+## What I Learned:
+### Section 14: Course Project: Building a Blog- Forms, Files & Sessions
+
+
+## Useful links:
