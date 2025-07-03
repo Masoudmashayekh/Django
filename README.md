@@ -465,3 +465,11 @@
  - Converting views to class based
 
 ## Useful links:
+
+
+# 3.july.2025
+
+## What I Learned:
+ - Converting views to class based
+
+## Useful links:
