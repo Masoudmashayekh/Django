@@ -470,6 +470,8 @@
 # 3.july.2025
 
 ## What I Learned:
- - Converting views to class based
+- Converting views to class based
+- Adding a Comment Model
+- Adding a Comment Form
 
 ## Useful links:
