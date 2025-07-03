@@ -37,7 +37,7 @@ class SinglePostView(DetailView):
 
     def get_context_data(self, **kwargs):
         context =  super().get_context_data(**kwargs)
-        context["post_tags"] = self.options.tags.all()
+        context["post_tags"] = self.object.tags.all()
         return context
 
 # def post_detail(request,slug):
