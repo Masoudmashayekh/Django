@@ -479,6 +479,7 @@
 # 4.july.2025
 
 ## What I Learned:
-
+- styling the Comment Form
+- Handling Comment Form Submission
 
 ## Useful links:
