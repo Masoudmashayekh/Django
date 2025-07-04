@@ -113,3 +113,8 @@ main {
   border-radius: 6px;
   cursor: pointer;
 }
+
+#comment-form button:hover,
+#comment-form button:active{
+  background-color: #7431cb;
+}
