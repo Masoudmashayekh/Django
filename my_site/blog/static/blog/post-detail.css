@@ -92,6 +92,7 @@ main {
   font: inherit;
   padding: 0.25rem;
   border-radius: 6px;
+  border: 1px solid #ccc;
 }
 
 #comment-form{
@@ -117,4 +118,5 @@ main {
 #comment-form button:hover,
 #comment-form button:active{
   background-color: #7431cb;
+  border-color: #7431cb;
 }
