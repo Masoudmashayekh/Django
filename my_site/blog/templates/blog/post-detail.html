@@ -33,7 +33,7 @@
     {{ post.content|linebreaks}}
 </main>
 <div>
-    <form action="">
+    <form id= "comment-form">
         {% for form_field in comment_form %}
             <div class= "form-control">
                 {{ form_field.label_tag }}
