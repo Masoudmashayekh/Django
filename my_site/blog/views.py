@@ -1,12 +1,12 @@
 
 from django.shortcuts import render, get_object_or_404
-from .models import Post
-from django.views.generic import ListView, DetailView
-from .forms import CommentForm
+from django.views.generic import ListView
 from django.views import View
 from django.http import HttpResponseRedirect
 from django.urls import reverse
 
+from .models import Post
+from .forms import CommentForm
 # Create your views here.
 class StartingPageView(ListView):
     template_name = "blog/index.html"
@@ -38,16 +38,16 @@ class AllPostView(ListView):
 
 class SinglePostView(View):
     def get(self, request, slug):
-        post= Post.objects.get(slug= slug)
+        post= Post.objects.get(slug=slug)
         context={
             "post": post,
-            "post-tags": post.tags.all(),
-            "comment-form": CommentForm()
+            "post_tags": post.tags.all(),
+            "comment_form": CommentForm()
         }
         return render(request, "blog/post-detail.html", context)
     
     def post(self, request, slug):
-        comment_form = CommentForm(request.Post)
+        comment_form = CommentForm(request.POST)
         post = Post.objects.get(slug= slug)
         
         if comment_form.is_valid():
@@ -58,8 +58,8 @@ class SinglePostView(View):
         
         context={
             "post": post,
-            "post-tags": post.all(),
-            "comment-form": comment_form
+            "post_tags": post.tags.all(),
+            "comment_form": comment_form
         }
         return render(request,"blog/post-detail-page.html", context)
         
