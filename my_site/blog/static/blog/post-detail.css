@@ -137,3 +137,29 @@ main {
   border-color: rgb(177, 0, 0);
   background-color: rgb(255, 229, 229);
 }
+
+#alert{
+  margin: 8rem auto 3rem auto;
+  border:1px solid rgb(177, 0, 0);
+  background-color: rgb(255, 229, 229);
+  padding: 1rem;
+  width: 90%;
+  max-width: 40rem;
+}
+
+#alert a{
+  text-decoration: none;
+  font: inherit;
+  background-color: rgb(177, 0, 0);
+  color: white;
+  border: 1px solid rgb(177, 0, 0);
+  padding: 0.25rem 1.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+#alert a:hover,
+#alert a:active{
+  background-color: rgb(197, 61, 61);
+  border-color:rgb(197, 102, 102);
+}

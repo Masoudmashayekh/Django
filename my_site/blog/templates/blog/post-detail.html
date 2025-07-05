@@ -14,12 +14,13 @@
 {% endblock %} 
  
 {% block content %}
+
 {% if comment_form.errors %}
     <div id= "alert">
         <h3>Savig the comment failed!</h3>
         <p>Please check the comment from below the post and fix your errors.</p>
+        <a href="#comment-form">Fix!</a>
     </div>
-
 {% endif %}
 
 <section id="summary">
