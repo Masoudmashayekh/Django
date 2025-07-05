@@ -120,3 +120,20 @@ main {
   background-color: #7431cb;
   border-color: #7431cb;
 }
+
+.errorlist{
+  list-style: none;
+  margin: 0.5rem 0;
+  padding: 0;
+  color: rgb(177, 0, 0);
+}
+
+.invalid label{
+  color: rgb(177, 0, 0);
+}
+
+.invalid input,
+.invalid textarea {
+  border-color: rgb(177, 0, 0);
+  background-color: rgb(255, 229, 229);
+}
