@@ -99,6 +99,7 @@ class ReadLaterView(View):
 
         return render(request, "blog/stored-posts.html", context)
     
+    
     def post(self, request):
         stored_posts = request.session.get("stored_posts")
         
@@ -109,5 +110,6 @@ class ReadLaterView(View):
         
         if post_id not in stored_posts:
             stored_posts.append(post_id)
+            request.session["stored_posts"] = stored_posts
         
         return HttpResponseRedirect("/")
