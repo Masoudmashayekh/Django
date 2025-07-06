@@ -58,6 +58,27 @@ body {
   text-decoration: none;
 }
 
+#read-later{
+  margin: 2rem 0;
+}
+
+#read-later button{
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 0.5rem 2rem;
+  font: inherit;
+  color: white;
+  cursor: pointer;
+}
+
+#read-later button:hover,
+#read-later button:active{
+  background-color: white;
+  color: #390281;
+}
+
+
+
 main {
   width: 90%;
   max-width: 90rem;
@@ -191,3 +212,4 @@ main {
 #comments h3{
   color: #646464;
 }
+
