@@ -487,6 +487,15 @@
 # 5.july.2025
 
 ## What I Learned:
+- Comment Form Validation Styles
+- Outputting Comments
+- Styling the Comments
+- Comment Admin 
 
+## Useful links:
+
+# 6.july.2025
+
+## What I Learned:
 
 ## Useful links:
