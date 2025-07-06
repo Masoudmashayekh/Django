@@ -497,5 +497,12 @@
 # 6.july.2025
 
 ## What I Learned:
+- Read Later Starting Setup
+- Managing Read Later via Session
+- Read Later Page & Styling
+- Finishing the Read Later Feature
 
 ## Useful links:
+- Code snapshot repository: https://github.com/academind/django-practical-guide-course-code
+- For this section, the branches starting with "prj-blog-uploads-sessions-..." hold the code snapshots for this course module.
+- For example: https://github.com/academind/django-practical-guide-course-code/tree/prj-blog-uploads-sessions-01-serving-uploaded-files/
