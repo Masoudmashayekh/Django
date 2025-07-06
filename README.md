@@ -501,6 +501,15 @@
 - Managing Read Later via Session
 - Read Later Page & Styling
 - Finishing the Read Later Feature
+### Section 15: Deployment
+- Module Introduction
+- Deployment Considerations
+- Which Database
+- Django & Web server
+- Serving Static Files
+- Choosing a Hosting Provider
+- Getting started and Revisiting Settings
+- Collecting Static Files
 
 ## Useful links:
 - Code snapshot repository: https://github.com/academind/django-practical-guide-course-code
