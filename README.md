@@ -515,3 +515,9 @@
 - Code snapshot repository: https://github.com/academind/django-practical-guide-course-code
 - For this section, the branches starting with "prj-blog-uploads-sessions-..." hold the code snapshots for this course module.
 - For example: https://github.com/academind/django-practical-guide-course-code/tree/prj-blog-uploads-sessions-01-serving-uploaded-files/
+
+# 7.july.2025
+
+## What I Learned:
+
+## Useful links:
