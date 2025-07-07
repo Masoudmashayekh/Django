@@ -521,3 +521,4 @@
 ## What I Learned:
 
 ## Useful links:
+- More on virtual environments: https://docs.python.org/3/library/venv.html#creating-virtual-environments
