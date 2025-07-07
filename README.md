@@ -519,6 +519,12 @@
 # 7.july.2025
 
 ## What I Learned:
+- Serving static Files
+- a Note About Migrations
+- Locking in Dependencies
+- Virtual Environments
+- Using Environment
+- Deploying with Elastic Beanstalk
 
 ## Useful links:
 - More on virtual environments: https://docs.python.org/3/library/venv.html#creating-virtual-environments
