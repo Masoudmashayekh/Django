@@ -528,3 +528,12 @@
 
 ## Useful links:
 - More on virtual environments: https://docs.python.org/3/library/venv.html#creating-virtual-environments
+
+# 8.july.2025
+
+## What I Learned:
+- SLL & Custom Domains
+- Connecting Postgre SQL
+
+## Useful links:
+- https://docs.djangoproject.com/en/5.2/ref/databases/
