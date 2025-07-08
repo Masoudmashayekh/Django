@@ -536,4 +536,4 @@
 - Connecting Postgre SQL
 
 ## Useful links:
-- https://docs.djangoproject.com/en/5.2/ref/databases/
+- PostgreSQL: https://docs.djangoproject.com/en/5.2/ref/databases/
