@@ -534,6 +534,12 @@
 ## What I Learned:
 - SLL & Custom Domains
 - Connecting Postgre SQL
+- Serving static files separatelly
+- Serving static files via S3
 
 ## Useful links:
 - PostgreSQL: https://docs.djangoproject.com/en/5.2/ref/databases/
+- Code snapshot repository: https://github.com/academind/django-practical-guide-course-code
+- For this section, the branches starting with "deployment-..." hold the code snapshots for this course module.
+- For example: https://github.com/academind/django-practical-guide-course-code/tree/deployment-01-serving-static-files-with-django/
+- Module slides can be found in this branch: https://github.com/academind/django-practical-guide-course-code/tree/deployment-zz-extra-files/slides
